@@ -77,6 +77,21 @@ cp agents/.env.example agents/.env
 nano agents/.env
 ```
 
+### Sample .env file
+
+```
+DOCKER_MODEL_RUNNER=http://model-runner.docker.internal/engines/llama.cpp/v1
+MODEL_NAME=ai/llama3.2:1B-Q8_0
+OPENAI_API_KEY=anything
+GOOGLE_API_KEY=XXXX
+GOOGLE_GENAI_USE_VERTEXAI=FALSE
+GOOGLE_CLOUD_LOCATION=us-central1
+GOOGLE_CLOUD_PROJECT=XXX
+LOG_LEVEL=INFO
+DEV_MODE=true
+```
+
+
 ### 3. Run Locally
 
 ```bash
