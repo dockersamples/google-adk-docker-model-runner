@@ -80,7 +80,7 @@ nano agents/.env
 ### Sample .env file
 
 ```
-DOCKER_MODEL_RUNNER=http://model-runner.docker.internal/engines/llama.cpp/v1
+DOCKER_MODEL_RUNNER=http://localhost:12434/engines/llama.cpp/v1
 MODEL_NAME=ai/llama3.2:1B-Q8_0
 OPENAI_API_KEY=anything
 GOOGLE_API_KEY=XXXX
