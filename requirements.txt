@@ -9,7 +9,7 @@ fastapi>=0.100.0
 uvicorn[standard]>=0.22.0
 
 # LLM and AI models
-litellm>=1.0.0
+litellm==1.73.6
 google-generativeai>=0.8.0
 
 # Additional tools and utilities
